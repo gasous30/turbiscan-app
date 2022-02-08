@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Erosion Area 5</folder>
+	<filename>2C8A0759.JPG</filename>
+	<path>C:\Users\Vito\Documents\Lomba\2022 MZP\machine_learning\dataset\Erosion Area 5\2C8A0759.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>8688</width>
+		<height>5792</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DamageArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>939</xmin>
+			<ymin>3516</ymin>
+			<xmax>2229</xmax>
+			<ymax>4056</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DamageArea</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>3416</ymin>
+			<xmax>829</xmax>
+			<ymax>3896</ymax>
+		</bndbox>
+	</object>
+</annotation>
