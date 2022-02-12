@@ -10,21 +10,21 @@ import About from "./pages/About/About";
 import HowTo from "./pages/HowTo/HowTo";
 import Analyze from "./pages/Analyze/Analyze";
 import Navbar from "./component/Navbar/Navbar";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/howto" element={<HowTo />} />
-          <Route path="/analyze" element={<Analyze />} />
-          <Route path="*" element={<Navigate to="/dashboard" />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/howto" element={<HowTo />} />
+        <Route path="/analyze" element={<Analyze />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/dashboard" />} />
+      </Routes>
+    </Router>
   );
 };
 

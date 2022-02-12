@@ -1,0 +1,53 @@
+.Footer {
+  box-sizing: border-box;
+  background: #0e1c3a;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 11.188rem;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .LeftImg {
+      position: relative;
+      left: -1rem;
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+
+    .Copyright {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  .Middle {
+    .MiddleGroup {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .Right {
+    .RightGroup {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .IconGroup {
+      display: flex;
+      gap: 3.125rem;
+    }
+  }
+}

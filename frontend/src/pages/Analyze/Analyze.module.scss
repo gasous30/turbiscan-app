@@ -1,0 +1,325 @@
+.Analyze {
+  background: linear-gradient(
+    180deg,
+    #0e1636 21.88%,
+    rgba(14, 14, 54, 0.83) 42.71%,
+    rgba(14, 14, 79, 0.56) 72.92%,
+    rgba(78, 78, 146, 0.794109) 99.54%
+  );
+  box-sizing: border-box;
+  color: white;
+
+  p,
+  h3,
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .Content {
+    padding-left: 10rem;
+    padding-top: 4.688rem;
+    padding-right: 10rem;
+
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    .TurbineSurface {
+      margin-top: 7rem;
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(250px);
+      border-radius: 16px;
+      padding: 3.25rem;
+      display: flex;
+      align-items: center;
+      height: 12rem;
+
+      .Left {
+        width: 50%;
+
+        p {
+          font-size: 1.125rem;
+        }
+
+        h4 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        .UploadGroup {
+          margin-top: 1.3rem;
+          background: #ffffff;
+          color: black;
+          border-radius: 32px;
+          padding: 0.4rem;
+          padding-left: 2rem;
+
+          display: flex;
+          align-items: center;
+
+          .Text {
+            width: 80%;
+          }
+
+          .Button {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #3671e9;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 32px;
+            gap: 1rem;
+            width: 30%;
+          }
+        }
+      }
+
+      .Right {
+        width: 57%;
+        position: relative;
+        left: 5rem;
+        top: 0.1rem;
+        img {
+          width: 60rem;
+        }
+      }
+    }
+
+    .WindCharacteristic {
+      @extend .TurbineSurface;
+      .Left {
+        .Button2 {
+          margin-top: 5rem;
+          width: 50%;
+          background: #c4c4c4;
+          color: #17244a;
+          border-radius: 32px;
+          padding: 1.25rem 2rem;
+        }
+      }
+      .Right {
+        top: -0.9rem;
+        left: 6.5rem;
+        img {
+          width: 46.5rem;
+        }
+      }
+    }
+
+    .BladeType {
+      margin-top: 7rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .Left {
+        width: 40%;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(250px);
+        border-radius: 16px;
+        padding: 3.25rem;
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-size: 1.125rem;
+        }
+
+        h4 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        .Preset {
+          margin-top: 1.3rem;
+          margin-bottom: 2rem;
+          background: #ffffff;
+          color: black;
+          border-radius: 32px;
+          padding: 1rem;
+          padding-left: 2.5rem;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+          font-weight: "normal";
+
+          display: flex;
+          align-items: center;
+
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            background: #c4c4c4;
+            font-weight: bold !important;
+          }
+        }
+
+        .PresetOn {
+          @extend .Preset;
+          background: #3671e9;
+          &:hover {
+            background: #3671e9;
+          }
+        }
+      }
+
+      .Right {
+        @extend .Left;
+        height: 32rem;
+        .Naca {
+          margin-top: 1.3rem;
+          margin-bottom: 2rem;
+          background: #ffffff;
+          color: black;
+          border-radius: 32px;
+          padding: 1rem;
+          padding-left: 2.5rem;
+          font-weight: "normal";
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .FourGroup {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+
+          .InputCircle {
+            font-size: 3rem;
+            text-align: center;
+            background: white;
+            border: none;
+            width: 3.75rem;
+            height: 3.75rem;
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .InputOne {
+              @extend .InputCircle;
+              width: 3rem;
+              height: 3rem;
+              background: rgba(228, 228, 228, 0.96);
+            }
+          }
+        }
+        .InputTextGroup {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .InputText {
+            width: 70%;
+            margin-top: 2rem;
+            background: #ffffff;
+            color: black;
+            border-radius: 32px;
+            padding: 0.4rem;
+            padding-left: 2rem;
+
+            display: flex;
+            align-items: center;
+
+            .Text {
+              width: 60%;
+            }
+
+            .InputBtn {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: rgba(228, 228, 228, 0.96);
+              color: black;
+              font-size: 1rem;
+              padding: 0.75rem 1.5rem;
+              border-radius: 32px;
+              border: none;
+              width: 30%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .Power {
+      @extend .TurbineSurface;
+      height: 20rem;
+      .Left {
+        width: 70%;
+        .UploadGroup {
+          width: 55%;
+          .InputBtn {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(228, 228, 228, 0.96);
+            color: black;
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 32px;
+            border: none;
+            width: 30%;
+            text-align: center;
+          }
+        }
+      }
+      .Right {
+        width: 30%;
+        top: 4.6rem;
+        left: -18rem;
+        z-index: 1;
+        img {
+          width: 50rem;
+        }
+      }
+    }
+
+    .Output {
+      @extend .Power;
+      height: 9rem;
+      .Right {
+        left: -13.5rem;
+        top: 1rem;
+        img {
+          width: 40rem;
+        }
+      }
+    }
+
+    .BtnContainer {
+      display: flex;
+      justify-content: center;
+
+      .Btn {
+        margin: 5rem;
+
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem 2rem;
+        background: #3871e8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 32px;
+        width: 12%;
+
+        p {
+          font-size: 1.5rem;
+        }
+
+        img {
+          width: 1.5rem;
+        }
+      }
+    }
+  }
+}

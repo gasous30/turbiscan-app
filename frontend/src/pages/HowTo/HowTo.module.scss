@@ -1,0 +1,124 @@
+.HowTo {
+  box-sizing: border-box;
+  height: calc(100vh - 6rem);
+  color: white;
+  padding-top: 8.5rem;
+  padding-left: 6.313rem;
+  display: flex;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Left {
+    width: 45%;
+    .Info {
+      display: flex;
+      border-radius: 32px;
+      background: rgba(255, 255, 255, 0.1);
+      width: max-content;
+      .InfoLeft {
+        padding: 0.5rem 1rem;
+        border-radius: 32px;
+        background: #ffffff;
+        color: #0d0d2b;
+      }
+      .InfoRight {
+        display: flex;
+        align-items: center;
+        padding-left: 1.2rem;
+        padding-right: 1.5rem;
+      }
+    }
+    .Text {
+      margin-top: 1.5rem;
+      width: 65%;
+      color: #e0e0e0;
+      line-height: 1.75rem;
+      letter-spacing: 0.01rem;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      .Top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+        .Icon {
+          padding: 2.25rem;
+          background: rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 27px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+      .Bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
+        .Icon {
+          padding: 2.25rem;
+          background: rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 27px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          img {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+      }
+    }
+    .Button {
+      width: max-content;
+      background: #6780b2;
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      padding: 1rem 2rem;
+      border-radius: 32px;
+      cursor: pointer;
+    }
+  }
+  .Right {
+    width: 70%;
+    overflow: hidden;
+    img {
+      position: relative;
+      width: 130%;
+      top: -5rem;
+      left: -5rem;
+    }
+  }
+  .PopupHowTo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    img {
+      margin-bottom: 1.375rem;
+    }
+    p {
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+  }
+}
