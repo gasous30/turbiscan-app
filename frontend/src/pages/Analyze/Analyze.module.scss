@@ -312,6 +312,12 @@
         border-radius: 32px;
         width: 12%;
 
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background: #2f0574;
+        }
+
         p {
           font-size: 1.5rem;
         }

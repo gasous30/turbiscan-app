@@ -11,6 +11,7 @@ import HowTo from "./pages/HowTo/HowTo";
 import Analyze from "./pages/Analyze/Analyze";
 import Navbar from "./component/Navbar/Navbar";
 import Contact from "./pages/Contact/Contact";
+import Output from "./pages/Output/Output";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/howto" element={<HowTo />} />
         <Route path="/analyze" element={<Analyze />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/output" element={<Output />} />
         <Route path="*" element={<Navigate to="/dashboard" />} />
       </Routes>
     </Router>

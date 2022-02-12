@@ -200,7 +200,10 @@ const Analyze = () => {
           </div>
         </div>
         <div className={styles.BtnContainer}>
-          <div className={styles.Btn}>
+          <div
+            className={styles.Btn}
+            onClick={() => (window.location.href = "output")}
+          >
             <p>Analyze</p>
             <img src={ArrowRight} />
           </div>
