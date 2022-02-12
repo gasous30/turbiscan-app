@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Damage Area 3</folder>
+	<filename>2C8A0824.JPG</filename>
+	<path>C:\Users\Vito\Documents\Lomba\2022 MZP\machine_learning\dataset\Damage Area 3\2C8A0824.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>8688</width>
+		<height>5792</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DamageArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1747</xmin>
+			<ymin>2027</ymin>
+			<xmax>2185</xmax>
+			<ymax>3033</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DamageArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2478</xmin>
+			<ymin>1958</ymin>
+			<xmax>7735</xmax>
+			<ymax>2983</ymax>
+		</bndbox>
+	</object>
+</annotation>

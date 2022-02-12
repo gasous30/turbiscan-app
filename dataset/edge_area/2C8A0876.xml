@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Edge Area</folder>
+	<filename>2C8A0876.JPG</filename>
+	<path>C:\Users\Vito\Documents\Lomba\2022 MZP\machine_learning\dataset\Edge Area\2C8A0876.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>8688</width>
+		<height>5792</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DamageArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>289</xmin>
+			<ymin>2346</ymin>
+			<xmax>3319</xmax>
+			<ymax>2766</ymax>
+		</bndbox>
+	</object>
+</annotation>

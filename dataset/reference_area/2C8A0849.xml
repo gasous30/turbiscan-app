@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Reference Area 2</folder>
+	<filename>2C8A0849.JPG</filename>
+	<path>C:\Users\Vito\Documents\Lomba\2022 MZP\machine_learning\dataset\Reference Area 2\2C8A0849.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>8688</width>
+		<height>5792</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ReferenceArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3799</xmin>
+			<ymin>2816</ymin>
+			<xmax>4309</xmax>
+			<ymax>3166</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ReferenceArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4439</xmin>
+			<ymin>2776</ymin>
+			<xmax>5049</xmax>
+			<ymax>3116</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ReferenceArea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5099</xmin>
+			<ymin>2756</ymin>
+			<xmax>5509</xmax>
+			<ymax>3066</ymax>
+		</bndbox>
+	</object>
+</annotation>
