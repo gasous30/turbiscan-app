@@ -32,11 +32,14 @@
     }
     .Text {
       margin-top: 1.5rem;
-      width: 65%;
+      width: 100%;
       color: #e0e0e0;
       line-height: 1.75rem;
       letter-spacing: 0.01rem;
       height: 40vh;
+      p {
+        text-align: justify;
+      }
     }
     .Button {
       width: max-content;

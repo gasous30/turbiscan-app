@@ -24,7 +24,23 @@ const About = () => {
           </div>
         </div>
         <div className={styles.Text}>
-          <p>Turbiscan is an app that ...</p>
+          <p style={{ marginBottom: "2rem" }}>
+            In 2016 the energy sector contributed 73.2% of the 49.4 billion
+            tonnes of global CO2 emissions (Ritchie, 2020) which can trigger
+            global warming. Wind turbine, one of the renewable energy that is
+            environmental friendly, is one of the solution to reduce global
+            warming. Along with the United Nations, we are willing to achieve
+            the 7th Sustainable Development Goals “Clean and Affordable Energy.”
+          </p>
+          <p>
+            However, there are many potential causes that can lead to wind
+            turbine blade failures and cost a lot of money to repair and inspect
+            wind turbine from time to time. Therefore, TURBISCAN is an app that
+            can help to assess wind turbine’s blade failures and its
+            significance to a turbine’s performance as well as the financial
+            analysis. With TURBISCAN, inspector can save up money and inspect
+            wind turbine through pictures without risking their lifes.{" "}
+          </p>
         </div>
         <div
           className={styles.Button}
