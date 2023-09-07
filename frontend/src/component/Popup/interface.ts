@@ -4,4 +4,8 @@ export interface IPopup {
   children: JSX.Element;
   trigger: boolean;
   setTrigger: MouseEventHandler<HTMLDivElement>;
+  size?: {
+    width: string;
+    height: string;
+  };
 }

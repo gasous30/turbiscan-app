@@ -90,18 +90,24 @@
 
     .WindCharacteristic {
       @extend .TurbineSurface;
+      height: 17rem;
       .Left {
         .Button2 {
-          margin-top: 5rem;
-          width: 50%;
+          margin-top: 1.5rem;
+          width: 70%;
           background: #c4c4c4;
           color: #17244a;
+          font-weight: bolder;
+          font-size: 1rem;
+          text-align: left;
+          border: none;
           border-radius: 32px;
           padding: 1.25rem 2rem;
+          cursor: pointer;
         }
       }
       .Right {
-        top: -0.9rem;
+        top: 1.6rem;
         left: 6.5rem;
         img {
           width: 46.5rem;
@@ -121,7 +127,7 @@
         backdrop-filter: blur(250px);
         border-radius: 16px;
         padding: 3.25rem;
-        height: 32rem;
+        height: 46rem;
         display: flex;
         flex-direction: column;
 
@@ -160,6 +166,7 @@
         .PresetOn {
           @extend .Preset;
           background: #3671e9;
+          font-weight: bold;
           &:hover {
             background: #3671e9;
           }
@@ -168,7 +175,7 @@
 
       .Right {
         @extend .Left;
-        height: 32rem;
+        height: 46rem;
         .Naca {
           margin-top: 1.3rem;
           margin-bottom: 2rem;
@@ -230,8 +237,11 @@
               width: 60%;
             }
 
+            .TextMat {
+              width: 40%;
+            }
+
             .InputBtn {
-              width: 100%;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -244,15 +254,55 @@
               width: 30%;
               text-align: center;
             }
+
+            .InputBtnMatDis {
+              @extend .InputBtn;
+              width: 100%;
+            }
+
+            .InputBtnMat {
+              @extend .InputBtn;
+              cursor: pointer;
+              width: 100%;
+
+              transition: all 0.2s ease-in-out;
+
+              &:hover {
+                font-weight: bold;
+                filter: brightness(0.9);
+              }
+            }
+
+            .InputBtnMatOn {
+              @extend .InputBtnMat;
+              background: #3671e9 !important;
+              font-weight: bold;
+              &:hover {
+                background: #3671e9;
+              }
+            }
           }
         }
       }
     }
     .Power {
       @extend .TurbineSurface;
-      height: 20rem;
+      height: 18rem;
       .Left {
         width: 70%;
+        .Button2 {
+          margin-top: 1.5rem;
+          width: 45%;
+          background: #c4c4c4;
+          color: #17244a;
+          font-weight: bolder;
+          font-size: 1rem;
+          text-align: left;
+          border: none;
+          border-radius: 32px;
+          padding: 1.25rem 2rem;
+          cursor: pointer;
+        }
         .UploadGroup {
           width: 55%;
           .InputBtn {
@@ -273,7 +323,7 @@
       }
       .Right {
         width: 30%;
-        top: 4.6rem;
+        top: 3.6rem;
         left: -18rem;
         z-index: 1;
         img {

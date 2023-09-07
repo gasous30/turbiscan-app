@@ -12,6 +12,7 @@ import Analyze from "./pages/Analyze/Analyze";
 import Navbar from "./component/Navbar/Navbar";
 import Contact from "./pages/Contact/Contact";
 import Output from "./pages/Output/Output";
+import Loading from "./component/Loading/Loading";
 
 const App = () => {
   return (
